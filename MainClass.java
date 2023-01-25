@@ -1,6 +1,9 @@
 public class MainClass {
     public static void main(String[] args){
-        Panel panel = new Panel();
-        Frame frame = new Frame(1500, 800, panel);
+        int gridSize = 25;
+        int width = 800;
+        int height = 400;
+        Panel panel = new Panel(50);
+        Frame frame = new Frame(width, height, panel);
     }
 }
