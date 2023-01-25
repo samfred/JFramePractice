@@ -1,5 +1,6 @@
 public class MainClass {
     public static void main(String[] args){
-        System.println("yo");
+        Panel panel = new Panel();
+        Frame frame = new Frame(1500, 800, panel);
     }
 }
